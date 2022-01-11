@@ -1,7 +1,8 @@
-function App() {
-  return (
-    <h1>Página Principal</h1>
-  );
-}
+import Navbar from "./componentes/Navbar";
 
+function App() {
+   return (
+     <Navbar />
+   );
+}
 export default App;
