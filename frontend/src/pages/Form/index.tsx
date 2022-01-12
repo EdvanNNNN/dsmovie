@@ -4,8 +4,8 @@ function Form(){
 
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
+        image: "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/11/24/1949526658-euphoria-season-2.jpg",
+        title: "Euphoria",
         count: 2,
         score: 4.5
     };
@@ -42,5 +42,4 @@ function Form(){
 </div >
     );
 }
-
 export default Form;

@@ -13,4 +13,5 @@ function MovieStars() {
     </div>
     );
 }
+
 export default MovieStars;

@@ -14,4 +14,5 @@ function MovieScore() {
         </div>
     );
 }
+
 export default MovieScore;
