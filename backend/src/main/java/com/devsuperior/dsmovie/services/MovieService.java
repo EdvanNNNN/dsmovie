@@ -23,7 +23,7 @@ public class MovieService {
 		return page; 	
 	}
 	@Transactional(readOnly = true)
-	public MovieDTO findById (Long id) {
+	public MovieDTO findByid (Long id) {
 		Movie result = repository.findById(id).get();
 		MovieDTO dto = new MovieDTO(result);
 		return dto; 
