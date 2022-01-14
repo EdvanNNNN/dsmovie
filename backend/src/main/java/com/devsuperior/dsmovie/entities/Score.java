@@ -10,17 +10,18 @@ public class Score {
 	
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
+	
 	private Double value;
 	
 	public Score() {
 	}
 	
 	public void SetMovie(Movie movie){
-	id.setMovie(movie);
+		id.setMovie(movie);
 	}
 	
 	public void setUser(User user){
-	id.setUser(user);
+		id.setUser(user);
 	}
 
 	public ScorePK getId() {
@@ -38,7 +39,5 @@ public class Score {
 
 	public void setValue(Double value) {
 		this.value = value;
-	}
-	
-	
+	}	
 }
