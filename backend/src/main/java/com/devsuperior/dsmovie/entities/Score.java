@@ -27,7 +27,6 @@ public class Score {
 	public ScorePK getId() {
 		return id;
 	}
-	
 
 	public void setId(ScorePK id) {
 		this.id = id;
