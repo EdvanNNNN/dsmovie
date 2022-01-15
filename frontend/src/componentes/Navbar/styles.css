@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .dsmovie-nav-content h1 {
     margin: 0;
