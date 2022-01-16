@@ -56,3 +56,6 @@
     align-items: center;
     justify-content: center;
 }
+.btn-primary {
+    border-color: #0e0e0e;
+}
