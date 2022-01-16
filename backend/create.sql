@@ -34,9 +34,9 @@ INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Animais Fantást
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'A Teoria de Tudo', 'https://i.ibb.co/VV6nR9j/a-teoria-de-tudo-1.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'O Livro de Boba Fett', 'https://i.ibb.co/XjyCPNP/O-Livro-de-Boba-Fett-1.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Outer Banks', 'https://i.ibb.co/Y2dh8yf/Outer-Banks.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Interestelar', 'https://i.ibb.co/Y2dh8yf/Outer-Banks.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Interestelar', 'https://i.ibb.co/bHHRbY0/Inter-1.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Contato', 'https://i.ibb.co/Y3Lv4bk/Contato-1.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Duna', 'https://i.ibb.co/PcRjnsq/Duna.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Duna', 'https://i.ibb.co/Q6YCnc0/Dunaa-1.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'La Casa de Papel', 'https://i.ibb.co/WsDmDVZ/La-Casa-De-Papel-1.jpg');
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 1, 5.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 2, 4.0);
