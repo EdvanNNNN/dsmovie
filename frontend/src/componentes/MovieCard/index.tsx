@@ -1,15 +1,12 @@
 import MovieScore from "componentes/MovieScore";
 import { Link } from "react-router-dom";
+import { Movie } from "types/movie";
 
-function MovieCard() {
+type Props = {
+    movie: Movie; 
+}
 
-    const movie = {
-        id: 1,
-        image: "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/11/24/1949526658-euphoria-season-2.jpg",
-        title: "Euphoria",
-        count: 2,
-        score: 4.5
-    };
+function MovieCard( { movie } : Props) {
 
     return (
         <div>
